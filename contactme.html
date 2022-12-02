@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylecontact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto+Mono:wght@600&family=Roboto+Slab&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+<header>
+    <nav class="navbar">
+        <ul class="link-group">
+            <li class="link active"><a href="index.html">home</a></li>
+            <li class="link"><a href="about.html">about</a></li>
+            <li class="link"><a href="contactme.html">contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <div class="container">
+        <h1>Contact Me</h1> 
+        <form action="action_page.php">
+      
+          <label for="fname">name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">email</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your email..">
+      
+          <label for="subject">subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+</body>
+</html>
